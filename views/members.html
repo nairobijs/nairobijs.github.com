@@ -35,16 +35,21 @@
     </div>
 <!-- /Navbar -->   
 
-<div class='container text-center'>
-	<h1>Members</h1>
+<div class='container'>
+	<h1 class='text-center'>Members</h1>
+	<div class='row'>
+		<div id='loading' class='col-md-4 col-md-offset-4'></div>
+	</div>
+	<ul id='members' class='list-group'></ul>
 	
-	<ul id='members'></ul>
 	<a href="https://github.com/orgs/NairobiJS">Nairobi.js on github!</a>
 
 </div>
 
 <script src='../js/jquery-1.10.2.js'></script>
 <script src='../js/bootstrap.js'></script>
+<script src='../js/spin.js'></script>
+<script src='../js/mustache.js'></script>
 <script src='../js/getMembers.js'></script>
 </body>
 </html>
