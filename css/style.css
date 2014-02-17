@@ -8,6 +8,8 @@
 	color: white;
 	border-radius: 5px;
 	height: 150px;
+	max-width: 600px;
+	margin:0px auto; 
 	vertical-align: middle;
 	padding-top: 20px; 
 }
