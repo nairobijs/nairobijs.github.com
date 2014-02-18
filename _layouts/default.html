@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- Custom CSS -->
+        <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.css'>
+		<link rel='stylesheet' href='/css/main.css'>
+    </head>
+    <body>
+
+	<!-- Navbar -->
+    <div class='navbar navbar-inverse navbar-static-top' role='navigation'>
+        <div class='navbar-header'>
+            <a href='/' class='navbar-brand'>{{ site.name }}</a>
+        </div>        
+        <div class='collapse navbar-collapse'>
+            <ul class='nav navbar-nav'>
+                <li><a href='/'>Home</a></li>
+                <li><a href='/about.html'>About</a></li>
+                <li><a href='/blog.html'>Blog</a></li>
+                <li><a href='/members.html'>Members</a></li>
+                <li><a href='/contact.html'>Contact</a></li>
+                <li class='dropdown'>
+					<a class='dropdown-toggle' data-toggle='dropdown' href='#learn'>Learn <b class='caret'></b></a>
+					<ul class='dropdown-menu'>
+						<li><a href='/resources/begin.html'>Beginner Resources</a></li>
+						<li><a href='/resources/intermediate.html'>Intermediate Resources</a></li>
+					</ul>
+				</li>
+            </ul>
+        </div>
+    </div>
+	<!-- /Navbar -->  
+	
+	<div class='container text-center'>
+    {{ content }}
+	</div>
+	
+    <div class="footer">
+		<div class="contact">
+			<p>
+				<a href="https://github.com/nairobijs">Github</a><br />
+                <a href="https://twitter.com/nairobijs">Twitter</a><br />
+            </p>
+		</div>
+	</div>
+	
+	<script src="/bower_components/jquery/dist/jquery.js"></script>
+	<script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
+	<script src="/bower_components/spin.js/spin.js"></script>
+	<script src="/bower_components/d3/d3.js"></script>
+	<script src="/bower_components/mustache/mustache.js"></script>
+	
+	<script src='/js/getMembers.js'></script>
+
+    </body>
+</html>
