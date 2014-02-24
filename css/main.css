@@ -2,7 +2,7 @@
 	margin-bottom: 20px;
 }
 
-.lion{
+.lion {
 	background-image: url('/img/nbi-paint.jpg');
 	background-size: 100% 100%;
 	color: white;
@@ -12,4 +12,21 @@
 	margin:0px auto; 
 	vertical-align: middle;
 	padding-top: 20px; 
+}
+
+#social-media {
+	margin-left:8px;
+}
+
+#social-media > a {
+	margin-left: 20px;
+	color: #F0DB4F;
+}
+
+#social-media > a > i{
+	padding-top: 4px;
+}
+
+#map {
+	height: 450px;
 }
