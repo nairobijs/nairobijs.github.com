@@ -5,9 +5,15 @@ L.tileLayer('http://{s}.tile.cloudmade.com/2515f952e6c3418488627c3e24cd773b/997/
     maxZoom: 18
 }).addTo(map);
 
-var marker = L.marker([-1.297782, 36.791982]).addTo(map);
+var nds = L.marker([-1.297782, 36.791982]).addTo(map);
+var ihub = L.marker([-1.298468, 36.790768]).addTo(map);
 
-marker.bindPopup('<a href="http://nairobidevschool.org">'
+nds.bindPopup('<a href="http://nairobidevschool.org">'
 					+ '<b>Nairobi Dev School</b>'
 					+ '</a>'
 					+ '<p>We meet here on Tuesdays</p>').openPopup();
+					
+ihub.bindPopup('<a href="http://ihub.co.ke">'
+					+ '<b>iHub</b>'
+					+ '</a>'
+					+ '<p>We meet here on once a month</p>');
