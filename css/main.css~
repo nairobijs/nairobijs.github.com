@@ -32,28 +32,23 @@
 }
 
 /*css for the blog posts*/
-h1.blog-title {font-size: 60px; line-height: 1; color: #333; font-weight: 800; letter-spacing: -1px}
-.posts {margin-bottom: 30px; margin-top: 40px; padding: 20px 0; border-left: 4px solid #1E90FF; background: #f8f8f8;}
-.posts h1 {font-size: 48px; line-height: 1.1}
-.posts a {
-	color: #000;
-	text-decoration: none; 
-	-webkit-transition: color 0.15s linear;
-	-ms-transition: color 0.15s linear;
-	transition: color 0.15s linear;
-}
+.posts {margin-bottom: 30px; margin-top: 40px; padding: 10px 15px; border-left: 5px solid #1E90FF; background: #f8f8f8;}
+.posts .text-muted {font-size: 18px;}
+.posts h1 {font-size: 48px;}
 
-.posts a:hover {
-	color: #428bca;
-}
-
+.post-header {margin-bottom: 20px}
+.post-header h1 {font-size: 48px; font-weight: bold; line-height: 1.2;}
+.post-body {padding-bottom: 20px;}
+.post-body p {color: #777; font-size: 22px; line-height: 1.6; margin-bottom: 20px;}
 
 @media (max-width: 400px) {
-  h1.blog-title  {
+  .header h1 {
     font-size: 48px;
   }
-  .posts h1 {
+  .posts a {
     font-size: 36px;
   }
-
+  .post-header h1 {
+	font-size: 36px;
+  }
 }
