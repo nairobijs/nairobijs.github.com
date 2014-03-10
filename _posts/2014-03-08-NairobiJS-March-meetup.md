@@ -10,11 +10,11 @@ JavaScript enthusiasts in Nairobi had their monthly meetup last saturday at the 
 
 _Pic: Prepping for the event and intros_
 
-We had a couple of presentations lined up with the main theme being how to build your front end with angular. We were started off by [@connorleech](https://twitter.com/connorleech) who took the group through building a simple chat application with angular framework and the awesome [@firebase](https://twitter.com/firebase) realtime application framework. This was a live coding session where attendees wrote code as they followed through and listened to him explain concepts and code on the big screen. It was a great environment to learn as those who had their code working helped others who had bugs. Once in a while [@connorleech](https://twitter.com/connorleech) had to pause for attendees to catch up. All in all it was a really good learning experience.
+We had a couple of presentations lined up with the main theme being how to build your front end with angular. We were started off by [@connorleech](https://twitter.com/cleechtech) who took the group through building a simple chat application with angular framework and the awesome [@firebase](https://twitter.com/firebase) realtime application framework. This was a live coding session where attendees wrote code as they followed through and listened to him explain concepts and code on the big screen. It was a great environment to learn as those who had their code working helped others who had bugs. Once in a while [@connorleech](https://twitter.com/cleechtech) had to pause for attendees to catch up. All in all it was a really good learning experience.
 
 ![My helpful screenshot]({{ site.url }}/assets/mar-2014-meetup/SAM_1785.jpg)
 
-_Pic: [@connorleech](https://twitter.com/connorleech) intro_
+_Pic: [@connorleech](https://twitter.com/cleechtech) intro_
 
 
 
