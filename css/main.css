@@ -30,3 +30,27 @@
 #map {
 	height: 450px;
 }
+
+//css for the blog posts
+.posts {margin-bottom: 30px; padding: 10px 15px; border-left: 5px solid #1E90FF; background: #f8f8f8;}
+.posts .text-muted {font-size: 18px;}
+.posts a {display: block; font-size: 48px;}
+
+.post-header {margin-bottom: 20px}
+.post-header h1 {font-size: 48px; font-weight: bold; line-height: 1.2;}
+.post-body {padding-bottom: 20px;}
+.post-body p {color: #777; font-size: 22px; line-height: 1.6; margin-bottom: 20px;}
+footer {margin-top: 20px; padding: 20px 0;}
+hr {margin-top: 0;}
+
+@media (max-width: 400px) {
+  .header h1 {
+    font-size: 48px;
+  }
+  .posts a {
+    font-size: 36px;
+  }
+  .post-header h1 {
+	font-size: 36px;
+  }
+}
