@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+		
+		<!-- SEO -->
+		<meta name="keywords" content="javascript js node angular d3 jquery open data web developers software kenya ict ict4d">
+		<meta name='description' content='A group for Nairobi Javascript developers! '>
+		<link rel='author' href='https://plus.google.com/b/100438232686295045150/100438232686295045150/about?hl=en'>
+		<link rel='publisher' href='https://plus.google.com/b/100438232686295045150/100438232686295045150/about?hl=en'>
+		<!-- FB -->
+		<meta property='og:title' content='A group for Nairobi Javascript developers!'>
+		<meta property='og:type' content='website'>
+		<meta property='og:image' content='http://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'>
+		<meta property='og:url' content='http://nairobijs.github.io'>
+		<meta property='og:description' content='A group for Nairobi Javascript developers!'>
+		<!-- Twitter -->
+		<meta name='twitter:card' content='summary'>
+		<meta name='twitter:url' content='http://nairobijs.github.io'>
+		<meta name='twitter:title' content="Group for Nairobi's javascript developers">
+		<meta name="twitter:description" content="javascript software web development ict icd4d js programming">
+		<meta name="twitter:image" content="http://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png">
+		
+		
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+		
+        <!-- CSS -->
+        <link rel='stylesheet' href='/css/bootstrap.css'>
+        <link rel='stylesheet' href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+        <link rel='stylesheet' href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
+        <link rel='stylesheet' href='/css/fullcalendar.css'>
+		<link rel='stylesheet' href='/css/main.css'>
+    </head>
+    <body>
+
+	<!-- Navbar -->
+    <div class='navbar navbar-inverse navbar-static-top' role='navigation'>
+        <div class='navbar-header'>
+            <a href='/' class='navbar-brand'>{{ site.name }}</a>
+        </div>        
+        <div class='collapse navbar-collapse'>
+            <ul class='nav navbar-nav'>
+                <li><a href='/'>Home</a></li>
+                <li><a id='about' href='#about'>About</a></li>
+                <li><a href='/blog.html'>Blog</a></li>
+                <li><a href='/members.html'>Members</a></li>
+                <li class='dropdown'>
+					<a class='dropdown-toggle' data-toggle='dropdown' href='#learn'>Learn <b class='caret'></b></a>
+					<ul class='dropdown-menu'>
+						<li><a href='/resources/begin.html'>Beginner Resources</a></li>
+						<li><a href='/resources/intermediate.html'>Intermediate Resources</a></li>
+					</ul>
+				</li>
+            </ul>
+            <div class='btn-group' id='social-media'>
+				<a href="https://github.com/nairobijs" target='_blank'><i class="fa fa-github fa-3x"></i></a>
+                <a href="https://twitter.com/nairobijs" target='_blank'><i class="fa fa-twitter fa-3x"></i></a>
+                <a href="https://plus.google.com/100438232686295045150" target='_blank' rel="publisher"><i class='fa fa-google-plus fa-3x'></i></a>
+                <a href="https://www.facebook.com/nairobijs" target='_blank'><i class="fa fa-facebook fa-3x"></i></a>
+            </div>
+        </div>
+    </div>
+	<!-- /Navbar -->  
+	
+	<div class='container text-center'>
+    {{ content }}
+	</div>
+	
+    <div class="footer">
+	</div>
+	
+	<!-- JS libs -->
+	<script src="/js/lib/jquery.js"></script>
+	<script src="/js/lib/jquery-ui.custom.min.js"></script>
+	<script src='/js/lib/jquery.scrollTo.js'></script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+	<script src="/js/lib/bootstrap.js"></script>
+	<script src="/js/lib/fullcalendar.js"></script>
+	<script src="/js/lib/gcal.js"></script>
+	<script src="/js/lib/spin.js"></script>
+	<script src="/js/lib/mustache.js"></script>
+	
+	<!-- JS custom -->
+	<script src='/js/getMembers.js'></script>
+	<script src='/js/makeCalendar.js'></script>
+	<script src='/js/makeMap.js'></script>
+	<script src='/js/main.js'></script>
+
+    </body>
+</html>
