@@ -5,11 +5,14 @@ title: Nairobi.js - Blog
 
 <h1 class="blog-title">{{ page.title }}</h1>
 
-
+	<ul class="posts-list">
 	{% for post in site.posts %}
-		<div class="posts">
-			<h1><a href="{{ post.url }}">{{post.title}}</a></h1>
-			<span class="text-muted">Published on <strong>{{ post.date | date: "%d %B %Y" }}</strong></span>
-		</div>
+		<li>
+			<a class="posts" href="{{ post.url }}">
+				<h1>{{post.title}}</h1>
+				<span class="text-muted">Published on <strong>{{ post.date | date: "%d %B %Y" }}</strong></span>
+			</a>
+		</li>
 	{% endfor %}
+	</ul>
 

@@ -12,6 +12,7 @@
 	margin:0px auto; 
 	vertical-align: middle;
 	padding-top: 20px; 
+	margin-bottom: 20px;
 }
 
 #social-media {
@@ -31,11 +32,30 @@
 	height: 450px;
 }
 
+.sub-top {
+	padding: 15px 0;
+	background: #FF9933;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.sub-top h2 {
+	margin: 0;
+	color: #fff;
+}
+
+.where {
+	padding: 20px 0;
+	overflow: hidden;
+}
 /*css for the blog posts*/
 h1.blog-title {font-size: 60px; line-height: 1; color: #333; font-weight: 800; letter-spacing: -1px}
-.posts {margin-bottom: 30px; margin-top: 40px; padding: 20px 0; border-left: 4px solid #1E90FF; background: #f8f8f8;}
-.posts h1 {font-size: 48px; line-height: 1.1}
-.posts a {
+ul.posts-list {margin-top: 40px; list-style: none;}
+ul.posts-list li{margin-bottom: 20px;}
+a.posts h1 {font-size: 48px; line-height: 1.1}
+a.posts {
+	display: block;
+	padding: 20px 10px; border-left: 4px solid #1E90FF; background: #f8f8f8;
 	color: #000;
 	text-decoration: none; 
 	-webkit-transition: color 0.15s linear;
@@ -43,7 +63,7 @@ h1.blog-title {font-size: 60px; line-height: 1; color: #333; font-weight: 800; l
 	transition: color 0.15s linear;
 }
 
-.posts a:hover {
+a.posts:hover {
 	color: #428bca;
 }
 
@@ -52,7 +72,7 @@ h1.blog-title {font-size: 60px; line-height: 1; color: #333; font-weight: 800; l
   h1.blog-title  {
     font-size: 48px;
   }
-  .posts h1 {
+  a.posts h1 {
     font-size: 36px;
   }
 
