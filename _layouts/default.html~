@@ -67,9 +67,7 @@
     </div>
 	<!-- /Navbar -->  
 	
-	<div class='container text-center'>
     {{ content }}
-	</div>
 	
     <div class="footer">
 	</div>
