@@ -67,6 +67,20 @@ a.posts:hover {
 	color: #428bca;
 }
 
+.post-meta {
+	margin-bottom: 20px;
+}
+
+.post-body {
+	text-align: left;
+}
+
+.post-body p {
+	color: #666;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
 
 @media (max-width: 400px) {
   h1.blog-title  {
