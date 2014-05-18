@@ -1,16 +1,21 @@
 ---
 layout: default
+blogTitle: NairobiJS - Blog
 ---
-
-<div class="post-meta">
-	<h1>{{ page.title }}</h1>
+<header>
+	<h1 class="blog-title">{{ page.blogTitle }}</h1>
+	<p class="lead">Catch up with all the fun from our events...</p>
+</header>
+<div class="container">
+	<div class="post-meta">
+	<h1><strong>{{ page.title }}</strong></h1>
 	<p class="text-muted">{{ page.date | date_to_string }}</p>
 	<p>Author: <strong>{{ page.author }}</strong></p>
 	<hr>
 </div>
-<!-- post content goes here -->
-<div class="row"></div>
-<<div class="col-md-8 col-md-offset-2">
+<!-- post content goes here --->
+<div class="row">
+<div class="col-md-8 col-md-offset-2">
 	<div class="post-body">
 		{{ content }}
 	</div>

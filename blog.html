@@ -1,10 +1,14 @@
 ---
 layout: default
-title: Nairobi.js - Blog
+title: NairobiJS - Blog
 ---
 
-<h1 class="blog-title">{{ page.title }}</h1>
+<header>
+	<h1 class="blog-title">{{ page.title }}</h1>
+	<p class="lead">Catch up with all the fun from our events...</p>
+</header>
 
+<div class="container">
 	<ul class="posts-list">
 	{% for post in site.posts %}
 		<li>
@@ -16,4 +20,5 @@ title: Nairobi.js - Blog
 		</li>
 	{% endfor %}
 	</ul>
+</div>
 
