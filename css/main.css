@@ -4,6 +4,9 @@
 
 .jumbotron {
 	margin-bottom: 0;
+	background: url('/img/lion.jpg') no-repeat;
+	background-size: 100%;
+	color: white;
 }
 
 header {
@@ -33,7 +36,7 @@ header {
 
 #social-media > a {
 	margin-left: 20px;
-	color: #111;
+	color: white;
 }
 
 #social-media > a > i{

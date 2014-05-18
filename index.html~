@@ -6,6 +6,7 @@ title: NairobiJS - Home
 <div class='jumbotron text-center'>
 	<h1><strong>NairobiJS</strong></h1>
 	<p class="lead">Write Javascript like a lion... :)</p>
+	<a href="https://www.eventbrite.com/e/weekly-js-meetup-yo-tickets-10706183483?ref=ebtnebregn" target="_blank"><img src="https://www.eventbrite.com/custombutton?eid=10706183483" alt="Eventbrite - weekly JS meetup yo" /></a>
 	<div class='btn-group' id='social-media'>
 		<a href="https://github.com/nairobijs" target='_blank'><i class="fa fa-github fa-3x"></i></a>
         <a href="https://twitter.com/nairobijs" target='_blank'><i class="fa fa-twitter fa-3x"></i></a>
