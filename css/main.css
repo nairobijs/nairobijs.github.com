@@ -4,7 +4,8 @@
 
 .jumbotron {
 	margin-bottom: 0;
-	background: url('/img/lion.jpg') no-repeat;
+	background-image: url('/img/lion.jpg');
+	background-repeat: no-repeat;
 	background-size: 100%;
 	color: white;
 }
