@@ -30,7 +30,7 @@
 		<link rel="icon" href="/img/favicon.ico" type="image/x-icon">
 		
         <!-- CSS -->
-        <link rel='stylesheet' href='/css/bootstrap.css'>
+        <link rel='stylesheet' href='/css/bootstrap.min.css'>
         <link rel='stylesheet' href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
         <link rel='stylesheet' href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css" />
         <link rel='stylesheet' href='/css/fullcalendar.css'>
@@ -40,10 +40,17 @@
 
 	<!-- Navbar -->
     <div class='navbar navbar-inverse navbar-static-top' role='navigation'>
+		<div class="container-fluid">
         <div class='navbar-header'>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
             <a href='/' class='navbar-brand'>{{ site.name }}</a>
         </div>        
-        <div class='collapse navbar-collapse'>
+        <div class='collapse navbar-collapse' id="collapse">
             <ul class='nav navbar-nav'>
                 <li><a href='/'>Home</a></li>
                 <li><a id='about' href='#about'>About</a></li>
@@ -57,33 +64,21 @@
 					</ul>
 				</li>
             </ul>
-            <div class='btn-group' id='social-media'>
-				<a href="https://github.com/nairobijs" target='_blank'><i class="fa fa-github fa-3x"></i></a>
-                <a href="https://twitter.com/nairobijs" target='_blank'><i class="fa fa-twitter fa-3x"></i></a>
-                <a href="https://plus.google.com/100438232686295045150" target='_blank' rel="publisher"><i class='fa fa-google-plus fa-3x'></i></a>
-                <a href="https://www.facebook.com/nairobijs" target='_blank'><i class="fa fa-facebook fa-3x"></i></a>
-            </div>
+          </div>
         </div>
     </div>
 	<!-- /Navbar -->  
 	
-	<div class='container text-center'>
     {{ content }}
-	</div>
-	
-    <div class="footer">
-	</div>
 	
 	<!-- JS libs -->
-	<script src="/js/lib/jquery.js"></script>
-	<script src="/js/lib/jquery-ui.custom.min.js"></script>
+	<script src="/js/lib/jquery-1.11.1.min.js"></script>
 	<script src='/js/lib/jquery.scrollTo.js'></script>
 	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
-	<script src="/js/lib/bootstrap.js"></script>
+	<script src="/js/lib/bootstrap.min.js"></script>
 	<script src="/js/lib/fullcalendar.js"></script>
 	<script src="/js/lib/gcal.js"></script>
 	<script src="/js/lib/spin.js"></script>
-	<script src="/js/lib/mustache.js"></script>
 	
 	<!-- JS custom -->
 	<script src='/js/getMembers.js'></script>
