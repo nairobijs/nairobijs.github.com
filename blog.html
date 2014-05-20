@@ -1,18 +1,24 @@
 ---
 layout: default
-title: Nairobi.js - Blog
+title: NairobiJS - Blog
 ---
 
-<h1 class="blog-title">{{ page.title }}</h1>
+<header>
+	<h1 class="blog-title">{{ page.title }}</h1>
+	<p class="lead">Catch up with all the fun from our events...</p>
+</header>
 
+<div class="container">
 	<ul class="posts-list">
 	{% for post in site.posts %}
 		<li>
 			<a class="posts" href="{{ post.url }}">
 				<h1>{{post.title}}</h1>
-				<span class="text-muted">Published on <strong>{{ post.date | date: "%d %B %Y" }}</strong></span>
+				<span class="text-muted" style="display: inline-block;margin-bottom: 8px">Published on <strong>{{ post.date | date: "%d %B %Y" }}</strong></span><br>
+				<span style="color: #333">{{ post.excerpt | remove: '<p>' | remove: '</p>' }}</span>
 			</a>
 		</li>
 	{% endfor %}
 	</ul>
+</div>
 

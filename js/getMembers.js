@@ -56,17 +56,16 @@ function displayMembers(members){
 		};
 		
 		// template <li> for each member
-		var template = '<li class=\'list-group-item\'>' +
+		var html = '<li class=\'list-group-item\'>' +
 			'<div class="row">' +
 			'<div class="thumbnail col-md-1">' +
-			'<img class="img-responsive img-thumbnail" src="{{gravatar}}">' +
+			'<img class="img-responsive img-thumbnail" src="' + memberData.gravatar + '">' +
 			'</div>' +
 			'<div class="col-md-3">' +
-			'<h2><a href="{{url}}">{{username}}</a></h2>' +
+			'<h2><a href="' + memberData.url + '">' + memberData.username +'</a></h2>' +
 			'</div>'
 			'</div>' +
 			'</li>';
-		var html = Mustache.to_html(template, memberData);
 		$('#members').append(html);
 	});
 }
