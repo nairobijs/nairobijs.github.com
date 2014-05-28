@@ -5,7 +5,7 @@ $(function() {
 	});
 	
 	//Slick.js config
-	$('.slide').slick({autoplay: true, autoplaySpeed: 8000, arrows: false, dots: true, speed: 800});
+	$('.slide').slick({autoplay: true, autoplaySpeed: 8000, arrows: true, dots: true, speed: 800});
 	
 	//home-page header slide down
 	$('.jumbotron').animate({
