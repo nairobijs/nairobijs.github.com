@@ -8,6 +8,10 @@
 	display: none;
 	padding: 0;
 }
+
+.jumbotron h1 {
+	letter-spacing: -2px
+}
 .jumbotron-wrapper {
 	padding: 50px 0;
 }
@@ -22,7 +26,7 @@ header {
 
 .slide {
 	text-align: center;
-	padding-top: 40px;
+	margin-top: 40px;
 	display: none;
 }
 
@@ -75,27 +79,28 @@ ul.goals {
 }
 
 .sub-top {
-	padding: 15px 0;
-	background: #0074D9;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #0074D9;
 	overflow: hidden;
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 .sub-top h2 {
 	margin: 0;
-	color: #fff;
-	text-align: center;
+	color: #111;
 }
 
 .events {
 	overflow: hidden;
+	margin: 40px 0;
+	border-top: 1px solid #0074D9;
 	padding: 40px 0;
 }
 
 .where {
 	padding: 40px 0;
 	overflow: hidden;
-	border-top: 2px solid #0074D9;
+	border-top: 1px solid #0074D9;
 	text-align: center;
 }
 
