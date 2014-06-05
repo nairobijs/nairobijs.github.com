@@ -1,10 +1,15 @@
 .navbar {
-	margin-bottom: 0;
+	background: white;
+	opacity: 0.95;
+	border-bottom: 1px solid #ddd;
+	border-top: 5px solid #FFDC00;
 }
 
 .jumbotron {
+	margin-top: 50px;
 	margin-bottom: 0;
-	color: #111;
+	color: #fff;
+	background: #0074D9;
 	display: none;
 	padding: 0;
 }
@@ -14,14 +19,6 @@
 }
 .jumbotron-wrapper {
 	padding: 50px 0;
-}
-
-header {
-	background-color: whitesmoke;
-	overflow: hidden;
-	padding: 40px 20px;
-	margin-bottom: 30px;
-	border-bottom: 2px solid #0074D9;
 }
 
 .slide {
@@ -45,56 +42,36 @@ ul.goals {
 	color: #0074D9;
 }
 
-/*.lion {
-	background-image: url('/img/nbi-paint.jpg');
-	background-size: 100%;
-	color: white;
-	height: 150px;
-	max-width: 600px;
-	margin:0px auto; 
-	vertical-align: middle;
-	padding-top: 20px; 
-	margin-bottom: 20px;
-}*/
-
-#social-media {
-	display: block;
-	background-color: #0074D9;
-	text-align: center;
-	padding: 10px 0;
-	box-shadow: 0px 2px 3px #aaa;
-	-webkit-box-shadow: 0px 2px 3px #aaa;
-	-moz-box-shadow: 0px 2px 3px #aaa;
-	min-height: 50px;
-}
-
-#social-media > a {
-	margin-left: 20px;
-	color: white;
-}
-
 #map {
 	margin-top: 30px;
 	height: 450px;
 }
 
+.wrapper {
+	padding: 50px;
+	box-shadow: 5px 2px 3px #aaa;
+	-webkit-box-shadow: 0px 0px 10px #ccc;
+	-moz-box-shadow: 1px 1px 3px #aaa;
+	background: white;
+	border: 10px solid #eee
+}
+
 .sub-top {
-	padding-bottom: 20px;
-	border-bottom: 1px solid #0074D9;
 	overflow: hidden;
 	margin-bottom: 20px;
 }
 
 .sub-top h2 {
-	margin: 0;
-	color: #111;
+	margin: 10px 0;
+	color: #0074D9;
 }
 
 .events {
 	overflow: hidden;
 	margin: 40px 0;
-	border-top: 1px solid #0074D9;
 	padding: 40px 0;
+	background: url('../img/worn_dots.png');
+	margin-bottom: 0;
 }
 
 .where {
@@ -108,7 +85,7 @@ ul.goals {
 	padding: 40px 0;
 	overflow: hidden;
 	border-top: 2px solid #0074D9;
-	background-color: whitesmoke;
+	/*background-color: whitesmoke;*/
 	text-align: center;
 }
 
@@ -124,12 +101,17 @@ ul.goals {
 }
 
 /*css for the blog posts*/
-h1.blog-title {
-	font-size: 60px; 
-	line-height: 1; 
-	color: #111; 
-	font-weight: 800; 
-	letter-spacing: -1px
+.posts-bg {
+	background: whitesmoke;
+	padding-top: 40px;
+}
+.white {
+	background: white;
+	box-shadow: 5px 2px 3px #aaa;
+	-webkit-box-shadow: 0px 0px 10px #ccc;
+	-moz-box-shadow: 1px 1px 3px #aaa;
+	padding-top: 20px;
+	border: 10px solid #eee
 }
 ul.posts-list {list-style: none;}
 ul.posts-list li{margin-bottom: 40px;}
@@ -157,7 +139,7 @@ a.posts:hover {
 
 .post-body p {
 	color: #111;
-	font-size: 18px;
+	font-size: 24px;
 	line-height: 1.5;
 }
 
