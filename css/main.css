@@ -85,8 +85,13 @@ ul.goals {
 .where {
 	padding: 40px 0;
 	overflow: hidden;
-	border-top: 1px solid #0074D9;
 	text-align: center;
+}
+
+.where h1 {
+	font-size: 48px;
+	line-height: 1;
+	color: #0074D9;
 }
 
 .about {
