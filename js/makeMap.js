@@ -1,4 +1,4 @@
-var map = L.map('map').setView([-1.297782, 36.791982], 17);
+var map = L.map('map', {scrollWheelZoom: false}).setView([-1.297782, 36.791982], 17);
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>',
