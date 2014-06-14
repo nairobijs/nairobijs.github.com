@@ -8,12 +8,7 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 
 var nds = L.marker([-1.297782, 36.791982]).addTo(map);
 var ihub = L.marker([-1.298468, 36.790768]).addTo(map);
-
-nds.bindPopup('<a href="http://nairobidevschool.org">'
-					+ '<b>Nairobi Dev School</b>'
-					+ '</a>'
-					+ '<p>We meet here on Tuesdays</p>').openPopup();
-					
+	
 ihub.bindPopup('<a href="http://ihub.co.ke">'
 					+ '<b>iHub</b>'
 					+ '</a>'
