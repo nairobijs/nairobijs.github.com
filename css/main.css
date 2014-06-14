@@ -1,6 +1,11 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 }
+
+.down {
+ margin-top: 55px;
+}
+
 .navbar {
 	background: white;
 	opacity: 0.95;
@@ -14,7 +19,6 @@ background-color: #ffdc00;
 }
 
 .jumbotron {
-	margin-top: 55px;
 	margin-bottom: 0;
 	color: #fff;
 	background: #0074D9;
