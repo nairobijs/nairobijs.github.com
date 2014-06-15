@@ -31,17 +31,19 @@
 		
         <!-- CSS -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600' rel='stylesheet' type='text/css'>
-        <link rel='stylesheet' href='/slick/slick.css'>
         <link rel='stylesheet' href='/css/bootstrap.min.css'>
         <link rel='stylesheet' href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css">
-        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
-        <link rel='stylesheet' href='/css/fullcalendar.css'>
 		<link rel='stylesheet' href='/css/main.css'>
+		{%if page.slug == 'home' %}
+			<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+			<link rel='stylesheet' href='/css/fullcalendar.css'>
+			<link rel='stylesheet' href='/slick/slick.css'>
+		{% endif %}
     </head>
     <body>
 
 	<!-- Navbar -->
-    <div class='navbar navbar-fixed-top' role='navigation'>
+    <div class='navbar navbar-default navbar-white navbar-fixed-top' role='navigation'>
 		<div class="container-fluid">
         <div class='navbar-header'>
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
@@ -54,12 +56,12 @@
         </div>        
         <div class='collapse navbar-collapse' id="collapse">
             <ul class='nav navbar-nav'>
-                <li><a href='/'>Home</a></li>
+                <li {% if page.slug == 'home' %}class="active" {% endif %}><a href='/'>Home</a></li>
                 <li><a id='about' href='/#about'>About</a></li>
-                <li><a href='/blog.html'>Blog</a></li>
-                <li><a href='/members.html'>Members</a></li>
-                <li><a href='/forum.html'>Forum</a></li>
-                <li><a href='/concept.html'>Concept</a></li>
+                <li {% if page.slug == 'blog' %}class="active" {% endif %}><a href='/blog.html'>Blog</a></li>
+                <li {% if page.slug == 'members' %}class="active" {% endif %}><a href='/members.html'>Members</a></li>
+                <li {% if page.slug == 'forum' %}class="active" {% endif %}><a href='/forum.html'>Forum</a></li>
+                <li {% if page.slug == 'concept' %}class="active" {% endif %}><a href='/concept.html'>Concept</a></li>
                 <li class='dropdown'>
 					<a class='dropdown-toggle' data-toggle='dropdown' href='#learn'>Learn <b class='caret'></b></a>
 					<ul class='dropdown-menu'>
@@ -77,36 +79,40 @@
         </div>
     </div>
 	<!-- /Navbar -->  
-	<div class="down">
+	<div class="pull-down">
 		 {{ content }}
 	</div>
 	
-	<!-- JS libs -->
+	<!-- General JS libs -->
 	<script src="/js/lib/jquery-1.11.1.min.js"></script>
-	<script src='/js/lib/jquery.scrollTo.js'></script>
-	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
 	<script src="/js/lib/bootstrap.min.js"></script>
-	<script src="/js/lib/fullcalendar.js"></script>
-	<script src="/js/lib/gcal.js"></script>
-	<script src="/js/lib/spin.js"></script>
-	<script src="/slick/slick.min.js"></script>
 	
-	
-	<!-- JS custom -->
-	<script src='/js/getMembers.js'></script>
-	<script src='/js/makeCalendar.js'></script>
-	<script src='/js/makeMap.js'></script>
-	<script src='/js/main.js'></script>
-	<script src='/js/lib/skrollr.js'></script>'
-	
-	<script>
-		$(document).ready(function() {
-			$('.slide').slick({autoplay: true, autoplaySpeed: 8000, speed: 800});
-		});
-	</script>
-	<script>
-	var s = skrollr.init();
-</script>
+	{% if page.slug == 'home' %}
+		<!-- JS libs -->
+		<script src='/js/lib/jquery.scrollTo.js'></script>
+		<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+		<script src="/js/lib/fullcalendar.js"></script>
+		<script src="/js/lib/gcal.js"></script>
+		<script src="/slick/slick.min.js"></script>
+		
+		<!-- JS custom -->
+		<script src='/js/makeCalendar.js'></script>
+		<script>
+			$(document).ready(function() {
+				//Slick
+				$('.slide').slick({autoplay: true, autoplaySpeed: 8000, speed: 800});
+				
+				//ScrollTo
+				$('#about').click(function(){
+					$.scrollTo('#aboutLocation', 800, {});
+				});
+			});
+		</script>
+	{% endif %}
+	{% if page.slug == 'members' %}
+		<script src="/js/lib/spin.js"></script>
+		<script src='/js/getMembers.js'></script>
+	{% endif %}
 
     </body>
 </html>

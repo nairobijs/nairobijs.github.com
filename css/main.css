@@ -2,20 +2,43 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.down {
+.pull-down {
  margin-top: 55px;
 }
 
 .navbar {
+	border-top: 5px solid #FFDC00;
+	border-bottom: 1px solid #ddd;
+} 
+.navbar-white {
 	background: white;
 	opacity: 0.95;
-	border-bottom: 1px solid #ddd;
-	border-top: 5px solid #FFDC00;
 }
 
-.nav>li>a:hover, .nav>li>a:focus {
-text-decoration: none;
-background-color: #ffdc00;
+.navbar-default .navbar-nav > li > a {
+  color: #0074D9;
+}
+
+.navbar-default .navbar-brand {
+  color: #0074D9;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #0055D9;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: white;
+  background-color: #FFDC00;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #FFDC00;
 }
 
 .jumbotron {
@@ -26,7 +49,7 @@ background-color: #ffdc00;
 }
 
 .jumbotron h1 {
-	letter-spacing: -2px
+	letter-spacing: 0px
 }
 .jumbotron-wrapper {
 	padding: 50px 0;
