@@ -107,6 +107,11 @@ ul.goals {
 	margin-bottom: 0;
 }
 
+.book h3 {
+	font-weight: 300;
+	color: #0074D9;
+}
+
 .where {
 	padding: 40px 0;
 	overflow: hidden;

@@ -6,10 +6,9 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     scrollWheelZoom: false
 }).addTo(map);
 
-var nds = L.marker([-1.297782, 36.791982]).addTo(map);
 var ihub = L.marker([-1.298468, 36.790768]).addTo(map);
 					
 ihub.bindPopup('<a href="http://ihub.co.ke">'
 					+ '<b>iHub</b>'
 					+ '</a>'
-					+ '<p>We meet here on once a month</p>').openPopup();
+					+ '<p>Our monthly meetups are held here</p>').openPopup();
