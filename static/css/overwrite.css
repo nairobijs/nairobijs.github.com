@@ -53,3 +53,6 @@
     top: 0;
     left: 0
 }
+header ul li > a{
+    color: white !important;
+}

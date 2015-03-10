@@ -1544,8 +1544,8 @@ startupKit.uiKitFooter.footer15 = function() {};
         $(document).ready(function() {
             if (!device.tablet() && !device.mobile()) {
                 // Do nothing
-                var player =  document.querySelector('iframe').getElementById('bgvd');
-                player.mute();
+                // var player =  document.querySelector('iframe').getElementById('bgvd');
+                // player.mute();
             }
             else if(navigator) {
 
