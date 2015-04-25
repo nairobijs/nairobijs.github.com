@@ -30,37 +30,37 @@ a:hover {
 h1, .h1 {
     font-size: 48px
     /* 64px */
-    
+
     ;
 }
 h2, .h2 {
     font-size: 41px
     /* 52px */
-    
+
     ;
 }
 h3, .h3 {
     font-size: 32px
     /* 40px */
-    
+
     ;
 }
 h4, .h4 {
     font-size: 23px
     /* 29px */
-    
+
     ;
 }
 h5, .h5 {
     font-size: 21px
     /* 28px */
-    
+
     ;
 }
 h6, .h6 {
     font-size: 19px
     /* 24px */
-    
+
     ;
 }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -91,24 +91,24 @@ h6 {
 p {
     font-size: 18.004px;
     /* 18px */
-    
+
     line-height: 1.722169;
     /* 31px */
 }
 .lead {
     font-size: 28px;
     /* 28px */
-    
+
     line-height: 1.4642745;
     /* 41px */
-    
+
     font-weight: 300;
     margin-bottom: 20px;
 }
 small {
     font-size: 84%;
     /* 15px */
-    
+
     line-height: 2.050846;
     /* 31px */
 }
@@ -741,7 +741,7 @@ body > .navbar-collapse .navbar-form .btn:hover, body > .navbar-collapse .navbar
     color: #fff;
 }
 /**
- * Header 9 stylesheet  
+ * Header 9 stylesheet
  * */
 
 .header-9 {
@@ -844,7 +844,7 @@ body > .navbar-collapse .navbar-form .btn:hover, body > .navbar-collapse .navbar
     text-align: center;
 }
 .header-9-sub .background {
-    background-image: url('../../startup/common-files/img/header/img-4.jpg');
+    background-image: url('../../images/one.jpg');
     opacity: 100;
     filter: alpha(opacity=10000);
     opacity: 1;
@@ -978,7 +978,7 @@ body > .navbar-collapse .navbar-form .btn:hover, body > .navbar-collapse .navbar
     }
 }
 /**
- * Content 4 stylesheet  
+ * Content 4 stylesheet
  * */
 
 .content-4 {
@@ -1038,7 +1038,7 @@ body > .navbar-collapse .navbar-form .btn:hover, body > .navbar-collapse .navbar
     }
 }
 /**
- * Content 12 stylesheet  
+ * Content 12 stylesheet
  * */
 
 .content-12 {
@@ -1112,7 +1112,7 @@ body > .navbar-collapse .navbar-form .btn:hover, body > .navbar-collapse .navbar
     display: none;
 }
 /**
- * Crew 4 stylesheet  
+ * Crew 4 stylesheet
  * */
 
 .crew-4 {
@@ -1273,7 +1273,7 @@ body > .navbar-collapse .navbar-form .btn:hover, body > .navbar-collapse .navbar
     }
 }
 /**
- * Content 3 stylesheet  
+ * Content 3 stylesheet
  * */
 
 .content-3 {
@@ -1395,7 +1395,7 @@ body > .navbar-collapse .navbar-form .btn:hover, body > .navbar-collapse .navbar
     }
 }
 /**
- * Copntact 5 stylesheet  
+ * Copntact 5 stylesheet
  * */
 
 .contacts-5 {
@@ -1434,7 +1434,7 @@ body > .navbar-collapse .navbar-form .btn:hover, body > .navbar-collapse .navbar
     }
 }
 /**
- * Copntact 1 stylesheet  
+ * Copntact 1 stylesheet
  * */
 
 .contacts-1 {
@@ -1556,7 +1556,7 @@ body > .navbar-collapse .navbar-form .btn:hover, body > .navbar-collapse .navbar
     }
 }
 /**
- * Footer 12 stylesheet  
+ * Footer 12 stylesheet
  * */
 
 .footer-12 {
@@ -1633,7 +1633,7 @@ body > .navbar-collapse .navbar-form .btn:hover, body > .navbar-collapse .navbar
     }
 }
 /**
- * Footer 11 stylesheet  
+ * Footer 11 stylesheet
  * */
 
 .footer-11 {
